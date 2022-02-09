@@ -1,0 +1,32 @@
+- input: |
+    9.2
+    8.3
+    7.0
+    21
+    1.0
+    2.3
+    9.2
+    53
+  output: |
+    O primeiro candidato foi aprovado com média 8.2.
+
+- input: |
+    9
+    8
+    7
+    21
+    9
+    8
+    7
+    21
+  output: |
+    O segundo candidato foi aprovado com média 8.0
+
+
+
+
+
+
+
+.
+

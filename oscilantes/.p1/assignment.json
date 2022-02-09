@@ -1,0 +1,26 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    25638\n  output: |\n    verdadeiro: 5 algarismos.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Números Oscilantes\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5613554780602368,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 5613554780602368,
+  "key": "5613554780602368",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}

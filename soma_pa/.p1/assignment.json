@@ -1,0 +1,20 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Soma de uma PA\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4642499316416512,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 4642499316416512,
+  "key": "4642499316416512",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}

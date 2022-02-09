@@ -1,0 +1,26 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2020\n  output: |\n    2020 é bissexto\n\n- input: |\n    2011\n  output: |\n    2011 não é bissexto\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Ano Bissexto\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4704539582136320,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 4704539582136320,
+  "key": "4704539582136320",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}

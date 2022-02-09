@@ -1,0 +1,25 @@
+- input: |
+    30
+  output: |
+    Quadrante 1
+
+- input: |
+    270
+  output: |
+    Sobre eixos
+
+- input: |
+    400
+  output: |
+    Quadrante 1
+
+- input: |
+    0.3
+  output: |
+    Quadrante 1
+
+- input: |
+    453
+  output: |
+    Quadrante 2
+
