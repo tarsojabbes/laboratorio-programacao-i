@@ -1,0 +1,29 @@
+- input: |
+    maca
+    pera
+  output: |
+    2
+
+- input: |
+    steylor
+    lesorty
+  output: |
+    0
+
+- input: |
+    file
+    filo
+  output: |
+    1
+
+- input: |
+    mouse
+    orelha
+  output: |
+    3
+
+- input: |
+    escada
+    acai
+  output: |
+    3

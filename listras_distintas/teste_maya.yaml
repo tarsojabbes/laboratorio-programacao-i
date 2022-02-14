@@ -1,0 +1,20 @@
+- input: |
+    bolsa
+    chaveiro
+  output: |
+    3
+
+- input: |
+    peito
+    peitar
+  output: |
+    1
+
+- input: |
+    notebook
+    carro
+  output: |
+    5
+
+
+

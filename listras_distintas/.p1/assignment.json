@@ -1,0 +1,26 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    universidade\n    verdade\n  output: |\n    5\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Letras Distintas\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5322529742782464,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 5322529742782464,
+  "key": "5322529742782464",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}
