@@ -1,0 +1,32 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python3 public_tests.py {}\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nmodule = sys.argv[-1].split(\".py\")[0]\n\nclass PublicTests(unittest.TestCase):\n\n    @classmethod\n    def setUpClass(cls):\n        global elimina_kyw\n        undertest = __import__(module)\n        elimina_kyw = getattr(undertest, 'elimina_kyw', None)\n\n    def test_1_publico(self):\n        s1 = 'kasayeww'\n        s2 = 'makria bonita'\n\n        assert elimina_kyw(s1) == 'asae'\n        assert elimina_kyw(s2) == 'maria bonita'\n\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Elimina KYW\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5022414608007168,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 5022414608007168,
+  "key": "5022414608007168",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}
