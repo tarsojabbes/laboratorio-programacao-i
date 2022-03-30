@@ -1,0 +1,41 @@
+- input: |
+    11111111
+    1
+  output: |
+    soma: 1
+    números lidos: 1 de 8
+    critério de parada: limite
+
+- input: |
+    11111111
+    9
+  output: |
+    soma: 6
+    números lidos: 6 de 8
+    critério de parada: 6 ímpares
+
+- input: |
+    135791222
+    50
+  output: |
+    soma: 26
+    números lidos: 6 de 9
+    critério de parada: 6 ímpares
+
+- input: |
+    0000000
+    1
+  output: |
+    soma: 0
+    números lidos: 7 de 7
+    critério de parada: final da sequência
+
+- input: |
+    12468
+    4
+  output: |
+    soma: 7
+    números lidos: 3 de 5
+    critério de parada: limite
+
+

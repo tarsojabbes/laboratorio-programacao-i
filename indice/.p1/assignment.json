@@ -1,0 +1,32 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "- type: script\n  script: pytest test_public.py --tst {} --clean\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "from undertst import indice_remissivo\n\ndef test_0_caso_base():\n    texto = \"eu prefiro que todos tirem notas boas do que eu ter que fazer um novo miniteste\"\n    indice = {\"eu\": [0, 9], \"prefiro\": [1], \"que\": [2, 8, 11], \"todos\": [3], \"tirem\": [4], \"notas\": [5], \"boas\": [6], \"do\": [7], \"ter\": [10], \"fazer\": [12], \"um\": [13], \"novo\": [14], \"miniteste\": [15]}\n    assert set(indice_remissivo(texto)) == set(indice)\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Índice Remissivo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6683377430167552,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 6683377430167552,
+  "key": "6683377430167552",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}

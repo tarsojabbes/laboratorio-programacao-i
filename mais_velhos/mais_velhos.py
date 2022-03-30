@@ -1,4 +1,3 @@
-from p1 import Array
 def idosos_inicio(lista):
 
     indice_insercao = 0
