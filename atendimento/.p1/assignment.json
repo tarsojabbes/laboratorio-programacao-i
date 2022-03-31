@@ -1,0 +1,32 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nmodule = sys.argv[-1].split(\".py\")[0]\n\nclass PublicTests(unittest.TestCase):\n\n    @classmethod\n    def setUpClass(cls):\n        global filas_de_atendimento\n        undertest = __import__(module)\n        filas_de_atendimento = getattr(undertest, 'filas_de_atendimento', None)\n\n    def test_exemplo1(self):\n        pacientes = ['Andre', 'Antonio', 'Bianca', 'Carlos', 'Claudia']\n        assert filas_de_atendimento(pacientes, 3) == [\n            ['Andre', 'Carlos'],\n            ['Antonio', 'Claudia'],\n            ['Bianca']\n        ]\n\n    def test_exemplo2(self):\n        pacientes = ['Andre', 'Antonio', 'Bianca', 'Carlos']\n        assert filas_de_atendimento(pacientes, 2) == [\n            ['Andre', 'Bianca'],\n            ['Antonio', 'Carlos']\n        ]\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python3 public_tests.py {}\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Filas de Atendimento\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4970582137372672,
+    "index": null,
+    "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+  },
+  "iid": 4970582137372672,
+  "key": "4970582137372672",
+  "site": "prog1",
+  "user": "tarso.jabbes.oliveira@ccc.ufcg.edu.br"
+}
